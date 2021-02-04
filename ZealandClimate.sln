@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZealandClimate", "ZealandClimate\ZealandClimate.csproj", "{3BC28D9C-F5F4-4386-962F-E9CE872BFEE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStrukturer", "DataStrukturer\DataStrukturer.csproj", "{B7AAC448-03D8-4EE6-9B18-6201BA0CCFA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BC28D9C-F5F4-4386-962F-E9CE872BFEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC28D9C-F5F4-4386-962F-E9CE872BFEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC28D9C-F5F4-4386-962F-E9CE872BFEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC28D9C-F5F4-4386-962F-E9CE872BFEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7AAC448-03D8-4EE6-9B18-6201BA0CCFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AAC448-03D8-4EE6-9B18-6201BA0CCFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AAC448-03D8-4EE6-9B18-6201BA0CCFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AAC448-03D8-4EE6-9B18-6201BA0CCFA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3128B9A2-139F-4CC2-B22B-32986661656C}
+	EndGlobalSection
+EndGlobal
