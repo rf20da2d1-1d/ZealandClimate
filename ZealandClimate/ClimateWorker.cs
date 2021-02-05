@@ -10,7 +10,7 @@ namespace ZealandClimate
 
         public void Start()
         {
-            Lokale lokale1 = new Lokale("D203", 34);
+            Lokale lokale1 = new Lokale("D308", 34);
             Maaling maaling1 = new Maaling(DateTime.Today,20.4, 455,23, lokale1 );
 
             Console.WriteLine(maaling1);
