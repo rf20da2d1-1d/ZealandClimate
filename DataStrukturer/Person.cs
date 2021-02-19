@@ -35,5 +35,26 @@ namespace DataStrukturer
         {
             return $"{nameof(Id)}: {Id}, {nameof(Name)}: {Name}";
         }
+
+        protected bool Equals(Person other)
+        {
+            return _id == other._id && _name == other._name;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (ReferenceEquals(null, obj)) return false;
+            if (ReferenceEquals(this, obj)) return true;
+            if (obj.GetType() != this.GetType()) return false;
+            return Equals((Person) obj);
+        }
+
+        public override int GetHashCode()
+        {
+            unchecked
+            {
+                return (_id * 397) ^ (_name != null ? _name.GetHashCode() : 0);
+            }
+        }
     }
 }

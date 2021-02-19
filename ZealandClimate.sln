@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZealandClimate", "ZealandClimate\ZealandClimate.csproj", "{3BC28D9C-F5F4-4386-962F-E9CE872BFEE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZealandClimate", "ZealandClimate\ZealandClimate.csproj", "{3BC28D9C-F5F4-4386-962F-E9CE872BFEE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStrukturer", "DataStrukturer\DataStrukturer.csproj", "{B7AAC448-03D8-4EE6-9B18-6201BA0CCFA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStrukturer", "DataStrukturer\DataStrukturer.csproj", "{B7AAC448-03D8-4EE6-9B18-6201BA0CCFA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonTest", "PersonTest\PersonTest.csproj", "{80A0E509-CF84-4220-A2DF-F2C7E42904D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B7AAC448-03D8-4EE6-9B18-6201BA0CCFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7AAC448-03D8-4EE6-9B18-6201BA0CCFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7AAC448-03D8-4EE6-9B18-6201BA0CCFA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A0E509-CF84-4220-A2DF-F2C7E42904D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A0E509-CF84-4220-A2DF-F2C7E42904D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A0E509-CF84-4220-A2DF-F2C7E42904D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A0E509-CF84-4220-A2DF-F2C7E42904D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
